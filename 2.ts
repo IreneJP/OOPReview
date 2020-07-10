@@ -13,7 +13,7 @@ let Nokia3210:Mobile = new Mobile("Nokia", "3210", "Nokia", 32, "Blue", false, 2
 let iPhone3G:Mobile= new Mobile("iPhone", "3G", "iPhone", 16, "Black", false, 1, 135)
 let SamsugGalaxy10:Mobile = new Mobile("Samsug Galaxy 10", "Galaxy 103G", "Samsung", 132, "White", true, 3, 435)
 
-
+/*
 console.log(Nokia3210.name)
 console.log(Nokia3210.model)
 console.log(Nokia3210.trademark)
@@ -54,5 +54,9 @@ console.log(SamsugGalaxy10.color)
 console.log(SamsugGalaxy10.is5G)
 console.log(SamsugGalaxy10.cameraNumber)
 console.log(SamsugGalaxy10.price)
+*/
 
+console.log(Nokia3210.print())
+console.log(iPhone3G.print())
+console.log(SamsugGalaxy10.print())
 
